@@ -5,17 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Fin Mead, portfolio
+        <img className="fibonacci"src="https://upload.wikimedia.org/wikipedia/commons/7/79/Fibonacci_spiral.svg" width="500" fill="blue" alt="logo" />
+        <p className='title'>
+          Fin Mead, Portfolio
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/mr-finnie-mac"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          See github
         </a>
       </header>
     </div>

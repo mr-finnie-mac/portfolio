@@ -1,4 +1,7 @@
+/* Main styling */
+
 .App {
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -12,6 +15,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.fibonacci {
+  background-color: darkgoldenrod;
+}
+
 
 .App-header {
   background-color: #282c34;
