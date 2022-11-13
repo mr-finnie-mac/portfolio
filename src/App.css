@@ -19,7 +19,22 @@
   background-color: darkgoldenrod;
   max-width: 50%;
 }
+.overview{
+  max-width: 75%;
+  
+}
+.overview-text{
+  font-size: smaller;
+}
 
+.bubble {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1);
+  height: 152px;
+  margin-right: 20px;
+  width: 152px;
+}
 
 .App-header {
   background-color: #282c34;
