@@ -17,6 +17,7 @@
 }
 .fibonacci {
   background-color: darkgoldenrod;
+  max-width: 50%;
 }
 
 

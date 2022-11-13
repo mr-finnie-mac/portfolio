@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img className="fibonacci"src="https://upload.wikimedia.org/wikipedia/commons/7/79/Fibonacci_spiral.svg" width="500" fill="blue" alt="logo" />
+        <img className="fibonacci"src="https://upload.wikimedia.org/wikipedia/commons/7/79/Fibonacci_spiral.svg"  fill="blue" alt="logo" />
         <p className='title'>
           Fin Mead, Portfolio
         </p>
