@@ -91,4 +91,4 @@ exports.BUBBLES = [
     }
   ];
   
-  exports.SCROLL_SPEED = 0.3;
+  exports.SCROLL_SPEED = 0.5;

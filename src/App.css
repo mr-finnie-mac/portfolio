@@ -9,6 +9,19 @@
   background-Image: url("./img/TILEvint bg.png");
 }
 
+.rotate {
+  width: 100px;
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 #fancy-text {
   font-family: 'millowregular';
   letter-spacing: 3px;
@@ -30,6 +43,14 @@
   border: none;
   /* mask-size: 300px 200px; */
   mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0.00,  rgba(0,0,0,0)),color-stop(1.00,  rgba(0,0,0,1)));
+}
+
+.music-text {
+  color:  rgba(54, 54, 54, 0.636);
+  margin: auto;
+  width: 50%;
+  text-align: center;
+
 }
 
 /* #fill {

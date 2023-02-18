@@ -2,6 +2,8 @@
 import './App.css';
 import AboutPageAnimation from "./AboutPageAnimation";
 import './gallery'
+import './goodMusic'
+import GetRandomSong from './goodMusic';
 
 
 function App() {
@@ -39,14 +41,17 @@ function App() {
           </div>
 
         </div>
-
         {/* <div className="overview">
             <p className='overview-text'>
             Hi, my name is Fin Mead. I'm a student currently enrolled at UEA in my 3rd year of studying Computer Science. I have many interests and enjoy lots of hobbies. I'm naturally curious and love learning new skills and expanding my knowledge. I have had many projects over the years, big and small. From building devices and programming to film making, 3d design and playing guitar. I enjoy them all, and more!
             </p>
         </div> */}
-        <AboutPageAnimation />
       </header>
+      <AboutPageAnimation />
+      <div className = "containter">
+          <img src= {require("./img/Green-8499-1024x1024.png")} className = "rotate" alt = "vinyl"/>
+          <GetRandomSong/>
+        </div>
       {/* <div className='title-plaque'>Links to stuff:</div> */}
       <div className='bottomDweller' id = "fill"></div>
     </div>

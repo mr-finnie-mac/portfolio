@@ -9,7 +9,6 @@ export default function AboutPageAnimation() {
 
   return (
     <div>
-      <script src="http://master.bootstraptemplates.net/assets/js/bubble-nodes.js" />
       <div className="container-fluid">
         <div className="hurdles hurdles-normal js-hurdles">
           <div className="hurdles-bubbles">{BUBBLES.map(renderBubbles)}</div>
@@ -41,7 +40,7 @@ function Bubble({ content, color, x, y }) {
     setPosition(prevPosition => {
       const newPosition = prevPosition - SCROLL_SPEED;
 
-      return newPosition < -200 ? CANVAS_WIDTH : newPosition;
+      return newPosition < -10 ? CANVAS_WIDTH : newPosition;
     })
   );
 
