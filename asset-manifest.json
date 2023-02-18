@@ -1,19 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3a967c33.css",
-    "main.js": "/portfolio/static/js/main.8f32826b.js",
+    "main.css": "/portfolio/static/css/main.84ec038a.css",
+    "main.js": "/portfolio/static/js/main.ebf669c5.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio/static/js/787.749b4a44.chunk.js",
-    "static/media/vint bg.png": "/portfolio/static/media/vint bg.cbf334c2e3a2f8b3c114.png",
+    "static/media/bike-pack.jpg": "/portfolio/static/media/bike-pack.904b82d4b68f7f6a7006.jpg",
+    "static/media/nor-keyboard.jpg": "/portfolio/static/media/nor-keyboard.8c9535bd484163f63cf0.jpg",
+    "static/media/marked bg.png": "/portfolio/static/media/marked bg.183993d978ff925fdebc.png",
+    "static/media/TILEvint bg.png": "/portfolio/static/media/TILEvint bg.579f8e70fa55fd9352ec.png",
+    "static/media/covid-uav.jpg": "/portfolio/static/media/covid-uav.b13c7f67f5882363abad.jpg",
+    "static/media/fruav.jpg": "/portfolio/static/media/fruav.df6f06d69e8c227918f1.jpg",
+    "static/media/esp-hall-dual-esc.jpg": "/portfolio/static/media/esp-hall-dual-esc.d91e40e4e6663392f485.jpg",
+    "static/media/wreath-bike.jpg": "/portfolio/static/media/wreath-bike.3f90dac0996be97d3040.jpg",
+    "static/media/esp-remote.jpg": "/portfolio/static/media/esp-remote.904d58dd144fac85bade.jpg",
+    "static/media/cgt.jpg": "/portfolio/static/media/cgt.7dc92630628b677d06e3.jpg",
+    "static/media/stereo-testing.jpg": "/portfolio/static/media/stereo-testing.59f58cf1b1cdb62d16c8.jpg",
+    "static/media/slider.jpg": "/portfolio/static/media/slider.78774cfde7fadff7f1e2.jpg",
+    "static/media/on-bike.jpg": "/portfolio/static/media/on-bike.420c9ec4c7b1624d0e7e.jpg",
+    "static/media/robot-render.jpg": "/portfolio/static/media/robot-render.ce790128bd4bf8c2ced2.jpg",
+    "static/media/bmx.jpg": "/portfolio/static/media/bmx.5b7fb2d8c05613b34944.jpg",
     "static/media/millow-webfont.woff": "/portfolio/static/media/millow-webfont.4b618306955669c92f06.woff",
     "static/media/millow-webfont.woff2": "/portfolio/static/media/millow-webfont.606f0600695d46ac793f.woff2",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.3a967c33.css.map": "/portfolio/static/css/main.3a967c33.css.map",
-    "main.8f32826b.js.map": "/portfolio/static/js/main.8f32826b.js.map",
+    "main.84ec038a.css.map": "/portfolio/static/css/main.84ec038a.css.map",
+    "main.ebf669c5.js.map": "/portfolio/static/js/main.ebf669c5.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a967c33.css",
-    "static/js/main.8f32826b.js"
+    "static/css/main.84ec038a.css",
+    "static/js/main.ebf669c5.js"
   ]
 }
