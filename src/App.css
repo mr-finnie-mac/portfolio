@@ -2,15 +2,63 @@
 
 @import "webfontkit-Millow/stylesheet.css";
 
+
 .App {
   font-family: 'Poppins', sans-serif; 
   text-align: center;
-  background-Image: url("./img/vint bg.png");
+  background-Image: url("./img/TILEvint bg.png");
 }
 
 #fancy-text {
   font-family: 'millowregular';
   letter-spacing: 3px;
+}
+
+.title-plaque
+{
+  background-Image: url("./img/marked bg.png");
+}
+
+.bottomDweller
+{  
+  background-Image: url("./img/gallery/on-bike.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 1080px;
+  width: 100%;
+  border: none;
+  /* mask-size: 300px 200px; */
+  mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0.00,  rgba(0,0,0,0)),color-stop(1.00,  rgba(0,0,0,1)));
+}
+
+/* #fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+#fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+} */
+
+#img-wrapper {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ 
+ #img-wrapper > div {
+  flex: 1 1 33%;
+ }
+ .gall-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .App-logo {
@@ -25,6 +73,7 @@
 }
 .fibonacci {
   /* background-color: darkgoldenrod; */
+  
   max-width: 50%;
 }
 .overview{
