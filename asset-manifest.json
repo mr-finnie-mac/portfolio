@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.84ec038a.css",
-    "main.js": "/portfolio/static/js/main.ebf669c5.js",
+    "main.css": "/portfolio/static/css/main.38230b6b.css",
+    "main.js": "/portfolio/static/js/main.c53c523e.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio/static/js/787.749b4a44.chunk.js",
     "static/media/bike-pack.jpg": "/portfolio/static/media/bike-pack.904b82d4b68f7f6a7006.jpg",
     "static/media/nor-keyboard.jpg": "/portfolio/static/media/nor-keyboard.8c9535bd484163f63cf0.jpg",
@@ -9,6 +9,7 @@
     "static/media/TILEvint bg.png": "/portfolio/static/media/TILEvint bg.579f8e70fa55fd9352ec.png",
     "static/media/covid-uav.jpg": "/portfolio/static/media/covid-uav.b13c7f67f5882363abad.jpg",
     "static/media/fruav.jpg": "/portfolio/static/media/fruav.df6f06d69e8c227918f1.jpg",
+    "static/media/Green-8499-1024x1024.png": "/portfolio/static/media/Green-8499-1024x1024.93a973bb6d7eccad290d.png",
     "static/media/esp-hall-dual-esc.jpg": "/portfolio/static/media/esp-hall-dual-esc.d91e40e4e6663392f485.jpg",
     "static/media/wreath-bike.jpg": "/portfolio/static/media/wreath-bike.3f90dac0996be97d3040.jpg",
     "static/media/esp-remote.jpg": "/portfolio/static/media/esp-remote.904d58dd144fac85bade.jpg",
@@ -21,12 +22,12 @@
     "static/media/millow-webfont.woff": "/portfolio/static/media/millow-webfont.4b618306955669c92f06.woff",
     "static/media/millow-webfont.woff2": "/portfolio/static/media/millow-webfont.606f0600695d46ac793f.woff2",
     "index.html": "/portfolio/index.html",
-    "main.84ec038a.css.map": "/portfolio/static/css/main.84ec038a.css.map",
-    "main.ebf669c5.js.map": "/portfolio/static/js/main.ebf669c5.js.map",
+    "main.38230b6b.css.map": "/portfolio/static/css/main.38230b6b.css.map",
+    "main.c53c523e.js.map": "/portfolio/static/js/main.c53c523e.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84ec038a.css",
-    "static/js/main.ebf669c5.js"
+    "static/css/main.38230b6b.css",
+    "static/js/main.c53c523e.js"
   ]
 }
