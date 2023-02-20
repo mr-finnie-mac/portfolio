@@ -1,5 +1,5 @@
 body {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   /*------------------------------------
     Hurdles - Team slide
@@ -14,7 +14,7 @@ body {
   
   @media (min-width: 880px) {
     .hurdles {
-      margin-top: 100px;
+      margin-top: 10px;
     }
   }
   
@@ -38,8 +38,8 @@ body {
   
   @media (min-width: 670px) {
     .hurdles-stakeholder {
-      width: 500px;
-      height: 500px;
+      width: 200px;
+      height: 200px;
       top: calc(50% - 60px);
       left: calc(50% - 60px);
     }

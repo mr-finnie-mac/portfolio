@@ -7,24 +7,24 @@
   font-family: 'Poppins', sans-serif; 
   text-align: center;
   background-Image: url("./img/TILEvint bg.png");
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
-
-.rotate {
-  width: 100px;
-  animation: rotation 2s infinite linear;
-}
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
   }
-  to {
-    transform: rotate(359deg);
-  }
+  100% {
+      opacity: 1;
+   }
 }
 
 #fancy-text {
   font-family: 'millowregular';
   letter-spacing: 3px;
+  font-size: 250%;
+  padding: 10px;
 }
 
 .title-plaque
@@ -32,6 +32,8 @@
   background-Image: url("./img/marked bg.png");
 }
 
+
+/* FOOTER */
 .bottomDweller
 {  
   background-Image: url("./img/gallery/on-bike.jpg");
@@ -45,13 +47,41 @@
   mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0.00,  rgba(0,0,0,0)),color-stop(1.00,  rgba(0,0,0,1)));
 }
 
+
+/* JUKEBOX */
+.record-player-container{
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+.vinyl{
+  text-align: center;
+  display:inline-block;
+}
+#rotate {
+  width: 100px;
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .music-text {
   color:  rgba(54, 54, 54, 0.636);
-  margin: auto;
-  width: 50%;
-  text-align: center;
-
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
 }
+
+/* GALLERY */
 
 /* #fill {
   display: flex;
@@ -68,13 +98,17 @@
 #img-wrapper {
   margin: auto;
   width: 50%;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 10px;
  }
  
  #img-wrapper > div {
-  flex: 1 1 33%;
+  /* flex: 1 1 33%; */
+  /* display: flex; */
+
  }
  .gall-img {
   width: 200px;
@@ -92,17 +126,113 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* FIBONACCI */
 .fibonacci {
   /* background-color: darkgoldenrod; */
   
   max-width: 50%;
 }
-.overview{
-  max-width: 75vw;
+
+/* STANDING FIN */
+.standing-fin{
+  width: 8%;
+  align-self: center;
+}
+
+
+/* SKILLS BIT */
+.skills-container{
+  padding: 25px;
+  height: 300px;
+  /* background-Image: url("./img/marked bg.png"); */
+  /* border-style: groove;
+  border-color: antiquewhite;
+  border-radius: 10px;
+  border-width: 10px; */
+
+}
+.skill-item{
+  /* display: inline-block; */
+  animation: backnfourth 10s linear infinite alternate;
+  text-align: left;
+
+}
+.skill-item2{
+  /* display: inline-block; */
+  animation: backnfourth 11s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box; 
+}
+.skill-item3{
+  /* display: inline-block; */
+  animation: backnfourth 12s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
   
 }
-.overview-text{
-  font-size: smaller;
+.skill-item4{
+  /* display: inline-block; */
+  animation: backnfourth 9s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+.skill-item5{
+  /* display: inline-block; */
+  animation: backnfourth 9.5s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+.skill-item6{
+  /* display: inline-block; */
+  animation: backnfourth 15s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+.skill-item7{
+  /* display: inline-block; */
+  animation: backnfourth 12.1s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+.skill-item8{
+  /* display: inline-block; */
+  animation: backnfourth 13.7s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+.skill-item9{
+  /* display: inline-block; */
+  animation: backnfourth 11.2s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+.skill-item10{
+  /* display: inline-block; */
+  animation: backnfourth 14.2s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+.skill-item11{
+  /* display: inline-block; */
+  animation: backnfourth 12.3s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box;
+  
+}
+@keyframes backnfourth {
+  0% { color: red; }
+ 25% { color: blue; }
+ 50% { color: green; }
+ 75% { color: orange; }
+100% { transform: translateX(90%); color: purple; }
 }
 
 .bubble {
@@ -123,6 +253,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(54, 54, 54);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+
 }
 
 .App-link {

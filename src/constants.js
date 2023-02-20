@@ -31,7 +31,7 @@ exports.BUBBLES = [
     },
     {
       x: "500",
-      y: "35",
+      y: "205",
       content: "Machine learning",
       color: "green"
     },
@@ -88,7 +88,44 @@ exports.BUBBLES = [
       y: "140",
       content: "Environmentalist",
       color: "green"
-    }
+    },
+    {
+      x: "560",
+      y: "210",
+      content: "Camera Vision",
+      color: "pink"
+    },
+    {
+      x: "900",
+      y: "250",
+      content: "Propulsion",
+      color: "yellow"
+    },
+    {
+      x: "60",
+      y: "160",
+      content: "Film and Photography",
+      color: "blue"
+    },
+    {
+      x: "250",
+      y: "200",
+      content: "Cycling",
+      color: "pink"
+    },
+    {
+      x: "1920",
+      y: "200",
+      content: "Guitar",
+      color: "green"
+    },
+    {
+      x: "150",
+      y: "100",
+      content: "Compliant Mechanisms",
+      color: "green"
+    },
+    
   ];
   
-  exports.SCROLL_SPEED = 0.5;
+  exports.SCROLL_SPEED = 0.1;
