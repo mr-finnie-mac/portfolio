@@ -32,17 +32,21 @@ function App() {
           <div id="img-wrapper">
             <div><img className = 'gall-img' src= {require("./img/gallery/bike-pack.jpg")} alt = "info" /></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/fruav.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/elephant.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/fruav-equipped.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/covid-uav.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/nor-keyboard.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/slider.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/esp-remote.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/london-gardens.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/esp-hall-dual-esc.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/stereo-testing.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/bmx.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/wreath-bike.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/smart-mirror.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/flowery-field.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/robot-render.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/me-dinos.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/cgt.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/stepper-turntable.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/space-station-monitor.jpg")} alt = "info"/></div>
