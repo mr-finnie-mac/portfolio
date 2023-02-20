@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5942101a.css",
-    "main.js": "/portfolio/static/js/main.37c0ce36.js",
+    "main.js": "/portfolio/static/js/main.18232cc3.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio/static/js/787.749b4a44.chunk.js",
     "static/media/bike-pack.jpg": "/portfolio/static/media/bike-pack.904b82d4b68f7f6a7006.jpg",
     "static/media/nor-keyboard.jpg": "/portfolio/static/media/nor-keyboard.8c9535bd484163f63cf0.jpg",
     "static/media/marked bg.png": "/portfolio/static/media/marked bg.183993d978ff925fdebc.png",
     "static/media/TILEvint bg.png": "/portfolio/static/media/TILEvint bg.579f8e70fa55fd9352ec.png",
     "static/media/covid-uav.jpg": "/portfolio/static/media/covid-uav.b13c7f67f5882363abad.jpg",
+    "static/media/elephant.jpg": "/portfolio/static/media/elephant.bc7e74155bd1b65afda0.jpg",
     "static/media/fruav.jpg": "/portfolio/static/media/fruav.df6f06d69e8c227918f1.jpg",
+    "static/media/london-gardens.jpg": "/portfolio/static/media/london-gardens.ba709dd9812b680abd7f.jpg",
+    "static/media/me-dinos.jpg": "/portfolio/static/media/me-dinos.aab5135260a804c5d779.jpg",
     "static/media/Green-8499-1024x1024.png": "/portfolio/static/media/Green-8499-1024x1024.93a973bb6d7eccad290d.png",
+    "static/media/flowery-field.jpg": "/portfolio/static/media/flowery-field.8522293d694015920a6a.jpg",
     "static/media/standing-fin-trans.png": "/portfolio/static/media/standing-fin-trans.696481de70def6445c42.png",
     "static/media/stepper-turntable.jpg": "/portfolio/static/media/stepper-turntable.f8209b8bdc5ed5c1b1d9.jpg",
     "static/media/esp-hall-dual-esc.jpg": "/portfolio/static/media/esp-hall-dual-esc.d91e40e4e6663392f485.jpg",
@@ -28,11 +32,11 @@
     "static/media/millow-webfont.woff2": "/portfolio/static/media/millow-webfont.606f0600695d46ac793f.woff2",
     "index.html": "/portfolio/index.html",
     "main.5942101a.css.map": "/portfolio/static/css/main.5942101a.css.map",
-    "main.37c0ce36.js.map": "/portfolio/static/js/main.37c0ce36.js.map",
+    "main.18232cc3.js.map": "/portfolio/static/js/main.18232cc3.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5942101a.css",
-    "static/js/main.37c0ce36.js"
+    "static/js/main.18232cc3.js"
   ]
 }
