@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5942101a.css",
+    "main.css": "/portfolio/static/css/main.b2b59c02.css",
     "main.js": "/portfolio/static/js/main.18232cc3.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio/static/js/787.749b4a44.chunk.js",
     "static/media/bike-pack.jpg": "/portfolio/static/media/bike-pack.904b82d4b68f7f6a7006.jpg",
@@ -31,12 +31,12 @@
     "static/media/millow-webfont.woff": "/portfolio/static/media/millow-webfont.4b618306955669c92f06.woff",
     "static/media/millow-webfont.woff2": "/portfolio/static/media/millow-webfont.606f0600695d46ac793f.woff2",
     "index.html": "/portfolio/index.html",
-    "main.5942101a.css.map": "/portfolio/static/css/main.5942101a.css.map",
+    "main.b2b59c02.css.map": "/portfolio/static/css/main.b2b59c02.css.map",
     "main.18232cc3.js.map": "/portfolio/static/js/main.18232cc3.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5942101a.css",
+    "static/css/main.b2b59c02.css",
     "static/js/main.18232cc3.js"
   ]
 }
