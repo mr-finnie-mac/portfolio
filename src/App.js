@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
+import React, { useRef } from "react";
 import './App.css';
 import AboutPageAnimation from "./AboutPageAnimation";
 import './gallery'
 import './goodMusic'
 import GetRandomSong from './goodMusic';
-import RenderModels from './models'
+import MakeModels from './models'
 import SkillsList from './skills';
 
 function App() {
+  // const textBoxRef = useRef(null);
   return (
     <div className="App">
       <header className="App-header">
@@ -43,36 +45,43 @@ function App() {
             <div><img className = 'gall-img' src= {require("./img/gallery/stereo-testing.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/bmx.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/wreath-bike.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/cmsd-stereo.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/smart-mirror.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/flowery-field.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/robot-render.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/cmsd.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/3dp-bmx.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/me-dinos.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/cgt.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/stepper-turntable.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/fixing-bike.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/space-station-monitor.jpg")} alt = "info"/></div>
           </div>
 
         </div>
         <div id="scene-container">
           <div className="Skills window">
-            
+            {/* <p className='skillset-title'>Skill Set</p> */}
+            <SkillsList />
           </div>
         </div>
         <div className="showroom">
             <p className='showroom-text'>
-            3D Work
+            {/* 3D Work */}
             </p>
-            <RenderModels/>
+            {/* <MakeModels/> */}
         </div>
       
       {/* <AboutPageAnimation /> */}
-        <SkillsList />
+        
+        {/* <FloatingTextBoxes ref={textBoxRef} /> */}
       <div className = "record-player-container">
           <img src= {require("./img/Green-8499-1024x1024.png")} className = "vinyl" id = "rotate" alt = "vinyl"/>
           <GetRandomSong/>
         </div>
       {/* <div className='title-plaque'>Links to stuff:</div> */}
-      <div className='bottomDweller' id = "fill"></div>
+      <div className='bottomDweller' id = "fill">
+      </div>
     </div>
   );
 }

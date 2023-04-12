@@ -121,7 +121,7 @@ exports.BUBBLES = [
     },
     {
       x: "150",
-      y: "100",
+      y: "200",
       content: "Compliant Mechanisms",
       color: "green"
     },

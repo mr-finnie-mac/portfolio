@@ -105,11 +105,11 @@
   gap: 10px 10px;
  }
  
- #img-wrapper > div {
-  /* flex: 1 1 33%; */
-  /* display: flex; */
+ /* #img-wrapper > div {
+  /* flex: 1 1 33%; 
+  /* display: flex; 
 
- }
+ } */
  .gall-img {
   width: 200px;
   height: 200px;
@@ -144,7 +144,7 @@
 /* SKILLS BIT */
 .skills-container{
   padding: 25px;
-  height: 300px;
+  height: 400px;
   /* background-Image: url("./img/marked bg.png"); */
   /* border-style: groove;
   border-color: antiquewhite;
@@ -157,6 +157,12 @@
   animation: backnfourth 10s linear infinite alternate;
   text-align: left;
 
+}
+.skill-item1{
+  /* display: inline-block; */
+  animation: backnfourth 11.4s linear infinite alternate;
+  text-align: left;
+  box-sizing: border-box; 
 }
 .skill-item2{
   /* display: inline-block; */
