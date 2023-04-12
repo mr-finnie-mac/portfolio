@@ -1,0 +1,124 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 171168,
+      "type": "SCALAR",
+      "max": [
+        141990
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 141991,
+      "type": "VEC3",
+      "max": [
+        52,
+        52,
+        27
+      ],
+      "min": [
+        -52,
+        -52,
+        0
+      ],
+      "name": "POSITION"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 141991,
+      "type": "VEC2",
+      "max": [
+        7.800000190734863,
+        5.199999809265137
+      ],
+      "min": [
+        -7,
+        -70.00119018554688
+      ],
+      "name": "TEXCOORD_0"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20,
+      "componentType": 5126,
+      "count": 141991,
+      "type": "VEC3",
+      "max": [
+        1.0000044107437134,
+        1.0000044107437134,
+        1.0000044107437134
+      ],
+      "min": [
+        -1.0000044107437134,
+        -1.0000044107437134,
+        -1.0000044107437134
+      ],
+      "name": "NORMAL"
+    }
+  ],
+  "asset": {
+    "generator": "Aspose.3D 23.2",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "NavQPlus_shell_data.bin",
+      "byteLength": 6162048
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 684672,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 684672,
+      "byteLength": 5477376,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "mode": 4
+        }
+      ],
+      "name": ""
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Body11"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

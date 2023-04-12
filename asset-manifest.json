@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b2b59c02.css",
-    "main.js": "/portfolio/static/js/main.18232cc3.js",
+    "main.css": "/portfolio/static/css/main.078adc18.css",
+    "main.js": "/portfolio/static/js/main.68dc4f22.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio/static/js/787.749b4a44.chunk.js",
     "static/media/bike-pack.jpg": "/portfolio/static/media/bike-pack.904b82d4b68f7f6a7006.jpg",
     "static/media/nor-keyboard.jpg": "/portfolio/static/media/nor-keyboard.8c9535bd484163f63cf0.jpg",
     "static/media/marked bg.png": "/portfolio/static/media/marked bg.183993d978ff925fdebc.png",
+    "static/media/cmsd-stereo.jpg": "/portfolio/static/media/cmsd-stereo.5b11833256fc10994c65.jpg",
     "static/media/TILEvint bg.png": "/portfolio/static/media/TILEvint bg.579f8e70fa55fd9352ec.png",
     "static/media/covid-uav.jpg": "/portfolio/static/media/covid-uav.b13c7f67f5882363abad.jpg",
     "static/media/elephant.jpg": "/portfolio/static/media/elephant.bc7e74155bd1b65afda0.jpg",
@@ -19,9 +20,12 @@
     "static/media/esp-hall-dual-esc.jpg": "/portfolio/static/media/esp-hall-dual-esc.d91e40e4e6663392f485.jpg",
     "static/media/wreath-bike.jpg": "/portfolio/static/media/wreath-bike.3f90dac0996be97d3040.jpg",
     "static/media/smart-mirror.jpg": "/portfolio/static/media/smart-mirror.7d1073a300093d925e4e.jpg",
+    "static/media/fixing-bike.jpg": "/portfolio/static/media/fixing-bike.6b54950b43d480a038d8.jpg",
     "static/media/esp-remote.jpg": "/portfolio/static/media/esp-remote.904d58dd144fac85bade.jpg",
     "static/media/fruav-equipped.jpg": "/portfolio/static/media/fruav-equipped.b2d3e8cba2a836018f27.jpg",
     "static/media/cgt.jpg": "/portfolio/static/media/cgt.7dc92630628b677d06e3.jpg",
+    "static/media/cmsd.jpg": "/portfolio/static/media/cmsd.34bb732a60275541b098.jpg",
+    "static/media/3dp-bmx.jpg": "/portfolio/static/media/3dp-bmx.477c5921b3107525c083.jpg",
     "static/media/stereo-testing.jpg": "/portfolio/static/media/stereo-testing.59f58cf1b1cdb62d16c8.jpg",
     "static/media/space-station-monitor.jpg": "/portfolio/static/media/space-station-monitor.a70af6ffa360443258a6.jpg",
     "static/media/slider.jpg": "/portfolio/static/media/slider.78774cfde7fadff7f1e2.jpg",
@@ -31,12 +35,12 @@
     "static/media/millow-webfont.woff": "/portfolio/static/media/millow-webfont.4b618306955669c92f06.woff",
     "static/media/millow-webfont.woff2": "/portfolio/static/media/millow-webfont.606f0600695d46ac793f.woff2",
     "index.html": "/portfolio/index.html",
-    "main.b2b59c02.css.map": "/portfolio/static/css/main.b2b59c02.css.map",
-    "main.18232cc3.js.map": "/portfolio/static/js/main.18232cc3.js.map",
+    "main.078adc18.css.map": "/portfolio/static/css/main.078adc18.css.map",
+    "main.68dc4f22.js.map": "/portfolio/static/js/main.68dc4f22.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2b59c02.css",
-    "static/js/main.18232cc3.js"
+    "static/css/main.078adc18.css",
+    "static/js/main.68dc4f22.js"
   ]
 }
