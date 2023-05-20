@@ -5,6 +5,7 @@ const songs = [
     ["Oh! Sweet Nuthin’ - The Velvet Underground","https://open.spotify.com/track/0i19MAZbyn8uTir7FprXId?autoplay=true"],
     ["Dramamine - Modest Mouse","https://open.spotify.com/track/5vtRk4rYxiy4cj95cmJ5Ma?si=10611728c5f74123"],
     ["This Is How We Move - Billie Marten", "https://open.spotify.com/track/5bQV0NEKpqCd3Erpau30VL?si=1faf55bdf8b44f86"],
+    ["Buka - Hania Rani", "https://open.spotify.com/track/366WRwY3T7CmjQPXFXe2sS?si=c445f1c9fb7e42c5"],
 ];
 
 const random = Math.floor(Math.random() * songs.length);
