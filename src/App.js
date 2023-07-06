@@ -36,6 +36,7 @@ function App() {
             <div><img className = 'gall-img' src= {require("./img/gallery/fruav.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/elephant.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/fruav-equipped.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/golden_gate.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/covid-uav.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/nor-keyboard.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/slider.jpg")} alt = "info"/></div>
@@ -47,6 +48,7 @@ function App() {
             <div><img className = 'gall-img' src= {require("./img/gallery/wreath-bike.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/cmsd-stereo.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/smart-mirror.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/nxp_connects_candid _w_drone.png")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/flowery-field.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/robot-render.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/cmsd.jpg")} alt = "info"/></div>
@@ -54,10 +56,20 @@ function App() {
             <div><img className = 'gall-img' src= {require("./img/gallery/me-dinos.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/cgt.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/stepper-turntable.jpg")} alt = "info"/></div>
+            <div><img className = 'gall-img' src= {require("./img/arms_folded_crop.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/fixing-bike.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/space-station-monitor.jpg")} alt = "info"/></div>
           </div>
 
+        </div>
+        <div id="collab-container">
+        <div><img className = 'collab-logo' src= {require("./img/logos/arm-logo.png")} alt = "info"/></div>
+        <div><img className = 'collab-logo' src= {require("./img/logos/hackster_logo.png")} alt = "info"/></div>
+        <div><img className = 'collab-logo' src= {require("./img/logos/Black_lazerthrust.png")} alt = "info"/></div>
+        <div><img className = 'collab-logo' src= {require("./img/logos/NXP-Logo.png")} alt = "info"/></div>
+        <div><img className = 'collab-logo' src= {require("./img/logos/UEA-logo.png")} alt = "info"/></div>
+        <div><img className = 'collab-logo' src= {require("./img/logos/vertical_solar-logo.webp")} alt = "info"/></div>
+        
         </div>
         <div id="scene-container">
           <div className="Skills window">
