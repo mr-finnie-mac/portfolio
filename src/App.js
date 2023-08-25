@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
 import './App.css';
-import AboutPageAnimation from "./AboutPageAnimation";
-import './gallery'
+// import AboutPageAnimation from "./AboutPageAnimation";
 import './goodMusic'
 import GetRandomSong from './goodMusic';
-import MakeModels from './models'
+// import MakeModels from './models'
 import SkillsList from './skills';
+import Gallery from './components/gallery';
 
 function App() {
   // const textBoxRef = useRef(null);
@@ -31,8 +31,9 @@ function App() {
         <img className="standing-fin" src= {require("./img/standing-fin-trans.png")}  alt="logo" />
         </header>
         <div>
-          <div id="img-wrapper">
-            <div><img className = 'gall-img' src= {require("./img/gallery/bike-pack.jpg")} alt = "info" /></div>
+          <Gallery />
+          
+            {/* <div><img className = 'gall-img' src= {require("./img/gallery/bike-pack.jpg")} alt = "info" /></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/fruav.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/elephant.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/fruav-equipped.jpg")} alt = "info"/></div>
@@ -58,8 +59,7 @@ function App() {
             <div><img className = 'gall-img' src= {require("./img/gallery/stepper-turntable.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/arms_folded_crop.jpg")} alt = "info"/></div>
             <div><img className = 'gall-img' src= {require("./img/gallery/fixing-bike.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/space-station-monitor.jpg")} alt = "info"/></div>
-          </div>
+            <div><img className = 'gall-img' src= {require("./img/gallery/space-station-monitor.jpg")} alt = "info"/></div> */}
 
         </div>
         <div id="collab-container">
