@@ -3,8 +3,10 @@
 @import "webfontkit-Millow/stylesheet.css";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&family=Rubik+Pixels&family=Young+Serif&display=swap');
+
 .App {
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Handjet', sans-serif;
   text-align: center;
   background-Image: url("./img/TILEvint bg.png");
   animation: fadeInAnimation ease 3s;
@@ -36,7 +38,7 @@
 /* FOOTER */
 .bottomDweller
 {  
-  background-Image: url("./img/gallery/on-bike.jpg");
+  background-Image: url("./img/on-bike.jpg");
   background-repeat:no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -47,19 +49,23 @@
   mask-image: -webkit-gradient(linear, center top, center bottom, color-stop(0.00,  rgba(0,0,0,0)),color-stop(1.00,  rgba(0,0,0,1)));
 }
 
+/* main and sidebar */
 
 /* JUKEBOX */
 .record-player-container{
   justify-content: center;
-  margin: auto;
+  margin: 64px;
   display: flex;
   flex-wrap: wrap;
   
-  
 }
 .vinyl{
+
   text-align: center;
   display:inline-block;
+}
+.music-text{
+  font-size: x-large;
 }
 #rotate {
   width: 100px;
@@ -74,11 +80,71 @@
   }
 }
 
+/*  general tings */
+.heading{
+  padding: 40px;
+}
+
+
+
+/* Artefact stuffs */
+.artefact-container {
+  position: relative;
+
+}
+
+.vibrate {
+  animation: vibrate 1s ease infinite;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1px);
+  }
+  50% {
+    transform: translateX(1px);
+  }
+  75% {
+    transform: translateX(-1px);
+  }
+  100% {
+    transform: translateX(1px);
+  }
+}
+.artefact-heading{
+  padding: 2vw;
+  background-color: rgba(250, 235, 215, 0.533);
+  letter-spacing: 3px;
+}
+.artefact-grid-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(250, 235, 215, 0.533);
+  padding: 2vw;
+  
+}
+
+.artefact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.artefact-item {
+  text-align: center;
+  margin: 0;
+}
 .music-text {
   color:  rgba(54, 54, 54, 0.636);
   display: flex;
   padding-left: 10px;
   align-items: center;
+  font-family: 'Handjet', sans-serif;
+  
 }
 
 /* GALLERY */
@@ -143,6 +209,79 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* Skills marquee */
+.word-marquee {
+  display: inline-block;
+  overflow: hidden;
+  font-size: xx-large;
+  padding: 1vw;
+}
+
+.moving-word-transition {
+  display: inline-block;
+  transition: transform 1.5s ease-in-out;
+}
+
+.moving-word {
+  margin-right: 10px; /* Adjust the gap size as needed */
+  display: inline-block;
+  opacity: 0.15;
+}
+
+.moving-word.active {
+  opacity: 1;
+  color: darkgreen;
+}
+
+/* For bg parallax images */
+.parallax-container {
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.parallax-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s ease-out;
+}
+
+.sticky-image {
+  position: fixed;
+  top: 50px; /* Adjust the value to the desired top position */
+  left: 50px; /* Adjust the value to the desired left position */
+  transition: transform 0.3s ease; /* Adding smooth transition for movement */
+
+  /* Add any other styling you want */
+}
+
+
+/* Styling for the scrolling bar container
+.scrolling-bar {
+  width: 300px;
+  max-height: 200px; 
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.scrolling-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scrolling-bar li {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+} */
+
 
 /* FIBONACCI */
 .fibonacci {

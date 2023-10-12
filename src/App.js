@@ -5,11 +5,58 @@ import './App.css';
 import './goodMusic'
 import GetRandomSong from './goodMusic';
 // import MakeModels from './models'
-import SkillsList from './skills';
+// import SkillsList from './skills';
 import Gallery from './components/gallery';
-
+import SkillScrollingBar from './skillsBar';
+// import ParallaxImage from './ParallaxImage';
+import Collaborations from './components/collab-logos';
+// import Artefact from './components/artefacts';
+import ArtefactGrid from './components/artefact-grid';
 function App() {
-  // const textBoxRef = useRef(null);
+  const artefacts = [
+    {
+      image: require('./img/assets/evolution.png'),
+      caption: 'meet the hominids',
+     
+    },
+    {
+      image: require('./img/assets/bike.png'),
+      caption: 'this is my bike',
+      
+    },
+    {
+      image: require('./img/assets/trilobite.png'),
+      caption: 'best trilobite',
+      
+    },
+    {
+      image: require('./img/assets/guitar.png'),
+      caption: 'the noodler',
+      
+    },
+    {
+      image: require('./img/assets/telegraph.png'),
+      caption: 'wires in the sky',
+      
+    },
+    {
+      image: require('./img/assets/tree.png'),
+      caption: 'wooden hard drive',
+      
+    },
+    {
+      image: require('./img/assets/veg.png'),
+      caption: 'veg',
+      
+    },
+    {
+      image: require('./img/assets/fib.png'),
+      caption: 'you are not worthy',
+      
+    },
+    // Add more artefacts as needed
+  ];
+  const width = 33.3;
   return (
     <div className="App">
       <header className="App-header">
@@ -30,51 +77,26 @@ function App() {
         </a>
         <img className="standing-fin" src= {require("./img/standing-fin-trans.png")}  alt="logo" />
         </header>
+        
         <div>
           <Gallery />
-          
-            {/* <div><img className = 'gall-img' src= {require("./img/gallery/bike-pack.jpg")} alt = "info" /></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/fruav.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/elephant.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/fruav-equipped.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/golden_gate.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/covid-uav.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/nor-keyboard.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/slider.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/esp-remote.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/london-gardens.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/esp-hall-dual-esc.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/stereo-testing.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/bmx.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/wreath-bike.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/cmsd-stereo.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/smart-mirror.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/nxp_connects_candid _w_drone.png")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/flowery-field.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/robot-render.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/cmsd.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/3dp-bmx.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/me-dinos.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/cgt.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/stepper-turntable.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/arms_folded_crop.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/fixing-bike.jpg")} alt = "info"/></div>
-            <div><img className = 'gall-img' src= {require("./img/gallery/space-station-monitor.jpg")} alt = "info"/></div> */}
-
         </div>
-        <div id="collab-container">
-        <div><img className = 'collab-logo' src= {require("./img/logos/arm-logo.png")} alt = "info"/></div>
-        <div><img className = 'collab-logo' src= {require("./img/logos/hackster_logo.png")} alt = "info"/></div>
-        <div><img className = 'collab-logo' src= {require("./img/logos/Black_lazerthrust.png")} alt = "info"/></div>
-        <div><img className = 'collab-logo' src= {require("./img/logos/NXP-Logo.png")} alt = "info"/></div>
-        <div><img className = 'collab-logo' src= {require("./img/logos/UEA-logo.png")} alt = "info"/></div>
-        <div><img className = 'collab-logo' src= {require("./img/logos/vertical_solar-logo.webp")} alt = "info"/></div>
+        <Collaborations />
+        <div>
+        {/* Other content */}
+        <div>
+    
         
+      </div>
+        {/* <ImageComponent imageUrl={require("./img/assets/evolution.png")} position={{top: '500px', left: '50px'}}/> */}
+        {/* <ParallaxImage imageUrl= {require("./img/goodsoup.jpg")} speed={0.1} /> */}
+        {/* More content */}
         </div>
+        <SkillScrollingBar />
         <div id="scene-container">
           <div className="Skills window">
             {/* <p className='skillset-title'>Skill Set</p> */}
-            <SkillsList />
+            {/* <SkillsList /> */}
           </div>
         </div>
         <div className="showroom">
@@ -85,12 +107,14 @@ function App() {
         </div>
       
       {/* <AboutPageAnimation /> */}
-        
-        {/* <FloatingTextBoxes ref={textBoxRef} /> */}
+
+      {/* Some cool things */}
+      <ArtefactGrid artefacts={artefacts} width={width} />
       <div className = "record-player-container">
           <img src= {require("./img/Green-8499-1024x1024.png")} className = "vinyl" id = "rotate" alt = "vinyl"/>
           <GetRandomSong/>
         </div>
+    
       {/* <div className='title-plaque'>Links to stuff:</div> */}
       <div className='bottomDweller' id = "fill">
       </div>

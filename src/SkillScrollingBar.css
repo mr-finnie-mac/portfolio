@@ -1,0 +1,28 @@
+/* SkillScrollingBar.css */
+
+.scrolling-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .scrolling-content {
+    display: flex;
+    position: absolute;
+    animation: scroll-left 20s linear infinite; /* Adjust animation duration */
+  }
+  
+  .skill-item {
+    margin-right: 20px; /* Adjust spacing between skills */
+    white-space: nowrap;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
