@@ -54,7 +54,6 @@ function App() {
       caption: 'you are not worthy',
       
     },
-    // Add more artefacts as needed
   ];
   const width = 33.3;
   return (
@@ -121,6 +120,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
-//export {Overview};
