@@ -41,7 +41,7 @@ function App() {
     },
     {
       image: require('./img/assets/tree.png'),
-      caption: 'wooden hard drive',
+      caption: 'data log',
       
     },
     {
