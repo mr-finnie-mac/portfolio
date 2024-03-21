@@ -24,7 +24,7 @@ function Collaborations() {
         </a>
       </div>
       <div>
-        <a href={'https://research-portal.uea.ac.uk/en/persons/fin-mead.ac.uk/'} target="_blank" rel="noopener noreferrer">
+        <a href={'https://research-portal.uea.ac.uk/en/persons/fin-mead'} target="_blank" rel="noopener noreferrer">
         <img className = 'collab-logo' src= {require("../img/logos/UEA-logo.png")} alt = "info"/>
         </a>
       </div>
