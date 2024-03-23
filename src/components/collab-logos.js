@@ -8,24 +8,34 @@ function Collaborations() {
           <img className = 'collab-logo' src= {require("../img/logos/arm-logo.png")} alt = "info"/>
         </a>
       </div>
+
       <div>
         <a href={'https://www.hackster.io/Meadeor'} target="_blank" rel="noopener noreferrer">
           <img className = 'collab-logo' src= {require("../img/logos/hackster_logo.png")} alt = "info"/>
         </a>
       </div>
+
       <div>
         <a href={'https://lazerthrust.technology/'} target="_blank" rel="noopener noreferrer">
         <img className = 'collab-logo' src= {require("../img/logos/Black_lazerthrust.png")} alt = "info"/>
         </a>
       </div>
+
       <div>
         <a href={'https://www.hovergames.com/'} target="_blank" rel="noopener noreferrer">
         <img className = 'collab-logo' src= {require("../img/logos/NXP-Logo.png")} alt = "info"/>
         </a>
       </div>
+
       <div>
         <a href={'https://research-portal.uea.ac.uk/en/persons/fin-mead'} target="_blank" rel="noopener noreferrer">
         <img className = 'collab-logo' src= {require("../img/logos/UEA-logo.png")} alt = "info"/>
+        </a>
+      </div>
+
+      <div>
+        <a href={'https://www.plantbaseduniversities.org/'} target="_blank" rel="noopener noreferrer">
+        <img className = 'collab-logo' src= {require("../img/logos/pbu_logo.webp")} alt = "info"/>
         </a>
       </div>
 
