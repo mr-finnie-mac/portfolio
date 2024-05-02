@@ -6,6 +6,7 @@ const songs = [
     ["Dramamine - Modest Mouse","https://open.spotify.com/track/5vtRk4rYxiy4cj95cmJ5Ma?si=10611728c5f74123"],
     ["This Is How We Move - Billie Marten", "https://open.spotify.com/track/5bQV0NEKpqCd3Erpau30VL?si=1faf55bdf8b44f86"],
     ["Buka - Hania Rani", "https://open.spotify.com/track/366WRwY3T7CmjQPXFXe2sS?si=c445f1c9fb7e42c5"],
+    ["Spud Infinity - Big Thief", "https://open.spotify.com/track/3Q6VfeIZ1bTjWiNe2Or4LQ?si=b616eaa161064839"],
 ];
 
 const random = Math.floor(Math.random() * songs.length);

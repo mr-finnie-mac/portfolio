@@ -25,6 +25,7 @@
 #fancy-text {
   font-family: 'millowregular';
   letter-spacing: 3px;
+  line-height: 1.2;
   font-size: 250%;
   padding: 10px;
 }
@@ -87,11 +88,11 @@
 
 
 
-/* Artefact stuffs */
+/* Artefact stuffs
 .artefact-container {
   position: relative;
 
-}
+} */
 
 .vibrate {
   animation: vibrate 1s ease infinite;
@@ -114,23 +115,23 @@
     transform: translateX(1px);
   }
 }
-.artefact-heading{
-  padding: 2vw;
+.artefact-heading {
+  padding: 1vw; /*padding proportionally to viewport width */
   background-color: rgba(250, 235, 215, 0.533);
   letter-spacing: 3px;
 }
+
 .artefact-grid-container {
   display: flex;
   justify-content: center;
   background-color: rgba(250, 235, 215, 0.533);
-  padding: 2vw;
-  
+  padding: 3vw; /*padding proportionally to viewport width */
 }
 
 .artefact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
+  gap: 1vw;
   justify-items: center;
 }
 
@@ -138,6 +139,22 @@
   text-align: center;
   margin: 0;
 }
+
+/* For mobile */
+@media (max-width: 768px) {
+  .artefact-heading {
+    padding: 4vw; /*padding proportionally to viewport width */
+  }
+  
+  .artefact-grid-container {
+    padding: 6vw; /*padding proportionally to viewport width */
+  }
+  .artefact-grid {
+    grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+    
+  }
+}
+
 .music-text {
   color:  rgba(54, 54, 54, 0.636);
   display: flex;
@@ -163,7 +180,7 @@
 
 #img-wrapper {
   margin: auto;
-  width: 50%;
+  width: 75%;
   /* padding: 10px; */
   display: flex;
   flex-wrap: wrap;
@@ -176,20 +193,33 @@
   /* display: flex; 
 
  } */
- .gall-img {
+/* desktop */
+.gall-img {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
 
+/* mobile */
+@media (max-width: 768px) {
+  .gall-img {
+    width: 30vw; /* image fill the width of its container */
+    height: 30vw; /* height adjust proportionally */
+  }
+}
+
 #collab-container{
+  gap: 5px;
   margin: auto;
   width: 75%;
   /* padding: 10px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px 10px;
+  /* gap: 10px 10px; */
+  border-radius: 5px;
+  box-sizing: border-box; /* Include border in the element's total width and height */
+  background-color: rgba(250, 235, 215, 0.533); /* Set a pastel color as the background */
 }
  .collab-logo{
   width: 175px;
@@ -197,6 +227,15 @@
   padding: 25px;
   align-items: center;
   object-fit: contain;
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+  .collab-logo {
+    width: 25vw; /* width to 30% of the viewport width */
+    height: 25vw; /*height to match the width, maintaining a square aspect ratio */
+    padding: 3vw;
+  }
 }
 
 .App-logo {
