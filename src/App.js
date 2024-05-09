@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import React, { useRef } from "react";
+import React, { useState } from 'react';
 import './App.css';
 // import AboutPageAnimation from "./AboutPageAnimation";
 import './goodMusic'
@@ -12,7 +13,13 @@ import SkillScrollingBar from './skillsBar';
 import Collaborations from './components/collab-logos';
 // import Artefact from './components/artefacts';
 import ArtefactGrid from './components/artefact-grid';
+import RotatingModel from './components/displayModel';
 function App() {
+  const [loadingPercentage, setLoadingPercentage] = useState(0);
+
+  const handleProgress = (percentage) => {
+    setLoadingPercentage(percentage);
+  };
   const artefacts = [
     {
       image: require('./img/assets/evolution.png'),
@@ -77,6 +84,17 @@ function App() {
         <img className="standing-fin" src= {require("./img/standing-fin-trans.png")}  alt="logo" />
         </header>
         
+        <div className="model-view-container">
+          <div className="model-grid-container">
+            <div className="model-container">
+              <RotatingModel />
+            </div>
+              <div className="text-container">
+                <p>Take a Seat, Donny</p>
+              </div>
+            </div>
+        </div>
+
         <div>
           <Gallery />
         </div>

@@ -298,7 +298,48 @@
 
   /* Add any other styling you want */
 }
+.model-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
 
+.model-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* gap: 20px; */
+}
+
+.model-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+
+
+.text-container {
+  font-family: "Jersey 25 Charted", sans-serif;
+  color:rgb(0, 0, 0);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 56px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: left; 
+  width: 20vw;
+  height: 20vh;
+}
+
+.model-view {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-self: center;
+}
 
 /* Styling for the scrolling bar container
 .scrolling-bar {
