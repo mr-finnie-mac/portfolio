@@ -325,20 +325,32 @@
   color:rgb(0, 0, 0);
   font-weight: 400;
   font-style: normal;
-  font-size: 56px;
+  font-size: 2vw;
   display: flex;
   justify-content: center; 
   align-items: center; 
   text-align: left; 
-  width: 20vw;
-  height: 20vh;
+  width: 325px;
+  height: 250px;
+}
+/* Media query for devices with maximum width of 768px (typical for mobile devices) */
+@media only screen and (max-width: 768px) {
+  .text-container {
+    font-size: 8vw; /* Adjusted font size for mobile devices */
+  }
+  .model-view {
+    width: 20vw;
+    height: 40vh;
+  }
 }
 
 .model-view {
   width: 400px;
-  height: 500px;
+  height: 600px;
   display: flex;
-  align-self: center;
+  justify-content: center; 
+  align-items: center; 
+  text-align: right; 
 }
 
 /* Styling for the scrolling bar container
