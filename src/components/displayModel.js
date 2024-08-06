@@ -13,7 +13,7 @@ const RotatingModel = () => {
     const loader = new GLTFLoader();
     return new Promise((resolve, reject) => {
       loader.load(
-        '../modern_arm_chair_01_1k/modern_arm_chair_01_1k.gltf', // '../drone.glb',
+        '../models/modern_arm_chair_01_1k/modern_arm_chair_01_1k.gltf', // '../models/drone.glb',
         gltf => resolve(gltf.scene),
         undefined,
         reject

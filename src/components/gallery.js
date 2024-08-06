@@ -52,6 +52,21 @@ function Gallery() {
       'https://www.hackster.io/Meadeor/crop-mapping-and-survey-drone-743363',
       null,
       null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      'https://sites.google.com/view/jacktheveganphotographer/ara/wtf/wtf-nor/130724 ',
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      
     ];
 
     return defaultLinks[index] || null;
