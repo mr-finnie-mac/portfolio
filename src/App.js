@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import React, { useRef } from "react";
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import './App.css';
 // import AboutPageAnimation from "./AboutPageAnimation";
 import './goodMusic'
@@ -15,11 +15,7 @@ import Collaborations from './components/collab-logos';
 import ArtefactGrid from './components/artefact-grid';
 import RotatingModel from './components/displayModel';
 function App() {
-  const [loadingPercentage, setLoadingPercentage] = useState(0);
 
-  const handleProgress = (percentage) => {
-    setLoadingPercentage(percentage);
-  };
   const artefacts = [
     {
       image: require('./img/assets/evolution.png'),
