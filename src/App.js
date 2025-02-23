@@ -13,7 +13,10 @@ import SkillScrollingBar from './skillsBar';
 import Collaborations from './components/collab-logos';
 // import Artefact from './components/artefacts';
 import ArtefactGrid from './components/artefact-grid';
-import RotatingModel from './components/displayModel';
+// import RotatingModel from './components/displayModel';
+import RotatingShowroom from './components/showroom';
+
+
 function App() {
 
   const artefacts = [
@@ -83,10 +86,10 @@ function App() {
         <div className="model-view-container">
           <div className="model-grid-container">
             <div className="model-container">
-              <RotatingModel />
+              <RotatingShowroom />
             </div>
               <div className="text-container">
-                <p>Take a Seat, Donny</p>
+                <h1>HAVE SOME CAD</h1>
               </div>
             </div>
         </div>

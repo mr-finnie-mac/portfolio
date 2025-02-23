@@ -304,6 +304,8 @@
   justify-content: center;
   align-items: center;
   /* height: 100vh; */
+  /* height: 50vh;
+  width: 100vh; */
 }
 
 .model-grid-container {
@@ -332,11 +334,11 @@
   align-items: center; 
   text-align: left; 
   width: 325px;
-  height: 250px;
+  /* height: 250px; */
 }
 
 .model-view {
-  width: 500px;
+  width: 800px;
   height: 700px;
   display: flex;
   justify-content: center; 
@@ -345,9 +347,9 @@
 }
 
 /* Media query for devices with maximum width of 768px (typical for mobile devices) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .text-container {
-    font-size: 5vw; /* Adjusted font size for mobile devices */
+    font-size: 5vw;
     width: 15vw;
     height: 30vh;
   }
@@ -355,7 +357,7 @@
     width: 50vw;
     height: 40vh;
   }
-}
+} */
 
 
 
