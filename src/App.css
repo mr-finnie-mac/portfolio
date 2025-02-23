@@ -347,17 +347,17 @@
 }
 
 /* Media query for devices with maximum width of 768px (typical for mobile devices) */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .text-container {
     font-size: 5vw;
     width: 15vw;
     height: 30vh;
   }
   .model-view {
-    width: 50vw;
+    width: 60vw;
     height: 40vh;
   }
-} */
+}
 
 
 
