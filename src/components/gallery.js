@@ -78,6 +78,42 @@ function Gallery() {
       null,
       null,
       null,
+      null, 
+      'https://www.instagram.com/p/DG4QyKMouqZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+      null,
+      'https://www.instagram.com/p/DH7zy7fNccv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+      'https://www.instagram.com/p/DHlc9Jkt6xm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      'https://www.instagram.com/p/DOQm6GXDdhT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+      'https://www.instagram.com/reel/DN3Qj4RWPe9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+      null,
+      null,
+      null,
+      null,
+      null,
+      
+
+
+
+
+
+
       
     ];
 
