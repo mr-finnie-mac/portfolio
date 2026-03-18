@@ -130,7 +130,9 @@ function App() {
           <img src= {require("./img/Green-8499-1024x1024.png")} className = "vinyl" id = "rotate" alt = "vinyl"/>
           <GetRandomSong/>
         </div>
-    
+      <div  className = "record-player-container">
+        <img src= {require("./img/ascii-art-escape-the-algo.png")} className = "term-text" id = "term-text" alt = "escape_the_algo"/>
+      </div>
       {/* <div className='title-plaque'>Links to stuff:</div> */}
       <div className='bottomDweller' id = "fill">
       </div>
